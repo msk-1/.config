@@ -6,3 +6,8 @@ set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 # viモードの設定
 fish_vi_key_bindings
+
+# fnm(Node.jsバージョン管理)用の設定
+fnm env --use-on-cd | source
+
+
